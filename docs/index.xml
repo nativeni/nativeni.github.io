@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference name</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Conference name</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/cfp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/cfp/</guid>
+      <description>Call for papers In recent years we witnessed a growing interest towards leveraging Artificial Intelligence (AI) tools to innovate network operations at all layers, domains and planes. Yet, if, what and where we need to integrate intelligence in networks and how to (re)design networks for the native support of AI is still largely under debate. This is due to the multi-faceted nature of the challenges behind such integration: on the one hand, network architectures must be updated to accommodate AI models and their lifecycle by design (e.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/dates/</guid>
+      <description>Deadlines Abstract registration September 23rd, 2022 Submission September 30th, 2022 Notification October 16th, 2022 Camera ready October 25th, 2022 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/format/</guid>
+      <description>Submission instructions Submissions should comply to double-blind 6 pages (excluding references) in 2-column 10pt ACM format.</description>
+    </item>
+    
+  </channel>
+</rss>
