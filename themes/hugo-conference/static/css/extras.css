@@ -1,0 +1,92 @@
+// $maincolor: 0x2f005f;
+
+.newheader {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+section {
+    font-family: "Barlow", sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+.content section{
+    padding-top: 5px;
+}
+
+strong {
+    font-family: sans-serif;
+    color: #5402a7;
+}
+
+section p {
+    margin-top: 0.7em;
+    margin-bottom: 0;
+}
+
+section h1,h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30pt;
+    padding: 0px 0px 15px 0px;
+    color: #5402a7;
+}
+
+nav {
+    padding: 0;
+}
+
+.nav-link {
+    font-size:1em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h2.header-subtitle {
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    font-size: 14pt;
+}
+
+section ul {
+    margin-left: 4em;
+}
+
+ul li {
+    font-size: 15pt;
+    list-style: square;
+    line-height: 1.7em;
+}
+
+hr.separator {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid #e3e3e3;
+  margin: 4em 2em;
+  padding: 0;
+}
+
+section table {
+    width: 60%;
+    margin: auto;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+}
+
+
+section td {
+     border: none;
+}
+
+section table tr {
+    line-height: 1.7em;
+    font-size: 15pt;
+}
+
+section table td {
+    white-space: nowrap;
+    padding: 0pt 0px 0px 0px;
+    padding-left: 40px;
+    border-bottom: solid 2px black;
+}
