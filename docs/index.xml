@@ -16,20 +16,39 @@
     
     <item>
       <title></title>
-      <link>https://example.org/dates/</link>
+      <link>https://example.org/committee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/dates/</guid>
-      <description>Deadlines Abstract registration September 23rd, 2022 Submission September 30th, 2022 Notification October 16th, 2022 Camera ready October 25th, 2022 </description>
+      <guid>https://example.org/committee/</guid>
+      <description>Committee Co-chairs Alessandro Finamore Huawei Technologies, France Marco Fiore IMDEA Networks Carlee Joe-Wong Carnegie Mellon University TPC Members TBD</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.org/format/</link>
+      <link>https://example.org/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/format/</guid>
-      <description>Submission instructions Submissions should comply to double-blind 6 pages (excluding references) in 2-column 10pt ACM format.</description>
+      <guid>https://example.org/contacts/</guid>
+      <description>Contacts For any questions please reach out to the chairs Alessandro Finamore, Marco Fiore and Carlee Joe-Wong</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/dates/</guid>
+      <description>Deadlines Abstract registration September 23rd, 2022 Submission September 30th, 2022 Notification October 16th, 2022 Camera ready October 25th, 2022 Workshop Event December 6th, 2022 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/submission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/submission/</guid>
+      <description>Submission instructions Submissions should comply to double-blind 6 pages (excluding references) in 2-column 10pt ACM format.
+The submission portal: https://nativeni22.hotcrp.com</description>
     </item>
     
   </channel>

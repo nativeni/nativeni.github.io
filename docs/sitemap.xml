@@ -5,10 +5,16 @@
     <loc>https://example.org/cfp/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://example.org/committee/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://example.org/contacts/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://example.org/dates/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.org/format/</loc>
+    <loc>https://example.org/submission/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://example.org/categories/</loc>
