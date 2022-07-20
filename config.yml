@@ -10,7 +10,7 @@ params:
   # Conference info
   Name: "NativeNI 2022"
   Description: "The 1st International Workshop on Native Network Intelligence <br> Co-located with ACM CoNEXT"
-  Date: "December"
+  Date: "December 6th"
   #Price: "Only $100" # If your event is free, just comment this line
 #  Venue: "Coco Bongo"
 #  Address: "Boulevard Kukulcan, 30"
@@ -23,7 +23,9 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - cfp
-    - format
+    - submission
+    - committee
+    - contacts
 #    - about
 #    - location
 #    - speakers
@@ -35,7 +37,9 @@ params:
   # Titles which you can translate to other languages
   Titles:
     cfp: CFP
-    format: Submission
+    submission: Submission
+    committee: Committee
+    contacts: Contacts
 #    about: "About"
 #    location: "Location"
 #    speakers: "Speakers"

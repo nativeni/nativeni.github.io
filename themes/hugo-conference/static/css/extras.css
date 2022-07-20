@@ -32,6 +32,12 @@ section h1,h2 {
     color: #5402a7;
 }
 
+section h3,h4 {
+    font-family: "Bebas Neue", sans-serif;
+    padding: none;
+    font-size: 20pt
+}
+
 nav {
     padding: 0;
 }
@@ -88,5 +94,15 @@ section table td {
     white-space: nowrap;
     padding: 0pt 0px 0px 0px;
     padding-left: 40px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px lightgray;
+}
+
+.content a {
+    color: #5402a7;
+    text-decoration: underline;
+}
+
+.content a:hover{
+    color: #5402a7;
+    text-decoration: none;
 }
