@@ -106,3 +106,22 @@ section table td {
     color: #5402a7;
     text-decoration: none;
 }
+
+p code {
+    background-color: #e7e7e7;
+    color: #d200ffc2;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+pre {
+    margin-top: 0.5em;
+}
+
+pre code {
+    background-color: #e7e7e7;
+    color: #d200ffc2;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.4em;
+}

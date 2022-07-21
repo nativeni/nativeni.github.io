@@ -47,8 +47,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/submission/</guid>
-      <description>Submission instructions Submissions should comply to double-blind 6 pages (excluding references) in 2-column 10pt ACM format.
-The submission portal: https://nativeni22.hotcrp.com</description>
+      <description>Submission instructions Authors should submit only original work that has not been published before and is no under submission to any other venue.
+All submitted papers will be assessed through a double-blind review process. This means that the authors do not see who are the reviewers and the reviewers do not see who are the authors.
+As an author, you should do your best to ensure that your paper submission does not directly or indirectly reveal the authors&amp;rsquo; identities.</description>
     </item>
     
   </channel>
