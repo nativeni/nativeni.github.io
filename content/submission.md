@@ -1,6 +1,6 @@
 # Submission instructions
 
-Authors should __submit only original__ work that has not been published before and is no under submission to any other venue.
+Authors should __submit only original work__ that has not been published before and is no under submission to any other venue.
 
 All submitted papers will be assessed through a __double-blind review process__. This means that the authors do not see who are the reviewers and the reviewers do not see who are the authors. 
 
@@ -17,7 +17,7 @@ As reviewers, PC members should not actively try to de-anonymize the authors' id
 Submissions should be __six pages maximum, plus one page for references, in 2-column 10pt ACM format__. When using Latex, please download the style and templates from 
 [here](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip).
 
-Uncompress the zip file and look for `sample-sigconf.tex` in the `sample/` subdirectory. The file can be used as a starting point, or the confiation can be copied to your own file if one exists. In any case, your text file should use the following class
+Uncompress the zip file and look for `sample-sigconf.tex` in the `/sample` subdirectory. The file can be used as a starting point, or the confiation can be copied to your own file if one exists. In any case, your text file should use the following class
 
 ```
 \documentclass[10pt,sigconf,letterpaper,anonymous,nonacm]{acmart}
