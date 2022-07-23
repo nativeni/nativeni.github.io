@@ -15,9 +15,7 @@ As reviewers, PC members should not actively try to de-anonymize the authors' id
 
 
 Submissions should be __six pages maximum, plus one page for references, in 2-column 10pt ACM format__. When using Latex, please download the style and templates from 
-
-[https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip).
-
+[here](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip).
 
 Uncompress the zip file and look for `sample-sigconf.tex` in the `sample/` subdirectory. The file can be used as a starting point, or the confiation can be copied to your own file if one exists. In any case, your text file should use the following class
 
