@@ -27,4 +27,4 @@
 | Submission            | September 30th, 2022 |
 | Notification          | October 16th, 2022 |
 | Camera ready          | October 25th, 2022 |
-| Workshop Event        | December 6th, 2022 |
+| Workshop Event        | December 9th, 2022 |
