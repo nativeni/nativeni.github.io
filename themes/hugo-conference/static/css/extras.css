@@ -79,8 +79,9 @@ hr.separator {
 }
 
 section table {
-    width: 60%;
+    width: 70%;
     margin: auto;
+    margin-bottom: 1.5em;
     border-collapse:separate;
     border:solid black 1px;
     border-radius:6px;
@@ -99,7 +100,8 @@ section table tr {
 section table td {
     // white-space: nowrap;
     padding: 0pt 0px 0px 0px;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
     border-bottom: solid 1px lightgray;
 }
 
@@ -150,6 +152,10 @@ pre code {
   }
 
 /*
+    section table td {
+        font-size: 1em;
+    }
+
   .about {
     margin: 0;
   }
@@ -287,6 +293,17 @@ pre code {
   .speakers-bio {
     display: none;
   }
+
+  section table {
+      width: 90%;
+      margin-bottom: 1em;
+  }
+
+    section table td {
+        font-size: 0.9em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 
@@ -313,5 +330,16 @@ pre code {
     height: 115px;
     line-height: 115px;
   }
+
+  section table {
+      width:90%;
+      margin-bottom: 1.5em;
+  }
+
+    section table td {
+        font-size: 0.9em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
