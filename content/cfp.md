@@ -5,7 +5,7 @@ such integration: on the one hand, network architectures must be updated to acco
 
 Pragmatic answers to all these points are paramount to enable a transition of the current large body of literature on AI for networking from academic exercises to solutions integrated in production systems.
 
-This workshop aims to bringing together researchers from academia and industry who are committed to making AI in networks a reality. We call for contributions from researchers working in the areas of network systems, applied machine learning and data science. __We seek contributions that range from visionary position papers to promising ideas and prototypes, all the way to fully deployed solutions__. All submissions should contribute to the common goal of making AI a viable and native technology for mobile networks.
+This workshop aims to bringing together researchers from academia and industry who are committed to making AI in networks a reality. We call for contributions from researchers working in the areas of network systems, applied machine learning and data science. __We seek contributions that range from visionary position papers to promising ideas and prototypes, all the way to fully deployed solutions__. All submissions should contribute to the common goal of making AI a viable and native technology for networks.
 
 Topics of interest include (but are not limited to):
 - Network architectures and infrastructures for native AI support
