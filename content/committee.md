@@ -25,6 +25,7 @@
 | John Chi Shing Lui         | Chinese University of Hong Kong |
 | Junchen Jiang              | University of Chicago |
 | Kyunghan Lee               | Seoul National university |
+| Marco Canini               | King Abdullah University of Science and Technology |
 | Marco Gramaglia            | Universidad Carlos III de Madrid |
 | Roberto González           | NEC Laboratories Europe |
 | Tao Han                    | New Jersey Institute of Technology |
