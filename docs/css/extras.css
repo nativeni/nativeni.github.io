@@ -140,6 +140,11 @@ pre code {
 }
 
 
+del {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .wrapper {
