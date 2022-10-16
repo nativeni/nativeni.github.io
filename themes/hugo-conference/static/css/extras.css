@@ -343,6 +343,15 @@ div.speaker span.jobtitle, span.affiliation {
         padding-left: 5px;
         padding-right: 5px;
     }
+
+    div.speaker {
+        margin: 0px 10px;
+        padding-bottom: 10px;
+    }
+
+    div.speaker img{
+        display:none;
+    }
 }
 
 
