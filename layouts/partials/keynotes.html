@@ -1,0 +1,13 @@
+<h3>Keynote Speakers</h3>
+
+
+{{ range $.Site.Data.program.keynotes }}
+    <div class="speaker">
+        <img src="img/{{ .speaker.picture }}"/>
+        <table>
+            <tr><td><span class="speakername">{{ .speaker.name }}</span></td><tr>
+            <tr><td><span class="jobtitle">{{ .speaker.jobtitle }}</span></td></tr>
+            <tr><td><span class="affiliation">{{ .speaker.affiliation }}</span></td></tr>
+        </table>
+    </div>
+{{ end }}

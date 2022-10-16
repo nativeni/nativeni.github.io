@@ -24,6 +24,7 @@ params:
   Sections:
     - cfp
     - submission
+    - program
     - committee
     - contacts
 #    - about
@@ -38,6 +39,7 @@ params:
   Titles:
     cfp: CFP
     submission: Submission
+    program: Program
     committee: Committee
     contacts: Contacts
 #    about: "About"

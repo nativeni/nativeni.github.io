@@ -74,6 +74,14 @@
         </div> 
 
         <div class="wrapper">
+        <section id="program">
+        <h1>Program</h1>
+        {{ partial "keynotes.html" . }}
+        </section>
+        <hr class="separator">
+        </div>
+
+        <div class="wrapper">
         <section id="committee">
         {{ with .Site.GetPage "/committee.md" }}
             {{ .Content }}

@@ -1,0 +1,17 @@
+keynotes:
+    - speaker:
+        name: Paul Patras
+        affiliation: University of Edimburg / NetAI
+        jobtitle: Associate Professor / Co-founder and CEO
+        homepage: https://homepages.inf.ed.ac.uk/ppatras/
+        picture: paul_patras.png
+        title:
+        abstract:
+    - speaker:
+        name: Sujata Banerjee
+        affiliation: VMWare
+        jobtitle: Vince president of research
+        homepage: https://research.vmware.com/researchers/sujata-banerjee
+        picture: sujata_banerjee.png
+        title:
+        abstract:
