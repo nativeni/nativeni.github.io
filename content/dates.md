@@ -26,6 +26,6 @@
 | ~~Abstract registration~~ | ~~September 23rd, 2022~~ |
 | ~~Submission~~            | ~~September 30th, 2022~~ |
 | ~~Extended Submission~~       | ~~October 3rd, 2022 (11:59pm AoE)~~ |
-| Notification          | October 16th, 2022 |
-| Camera ready          | October 25th, 2022 |
+| ~~Notification~~          | ~~October 21st, 2022~~ |
+| Camera ready          | November 1st, 2022 (hard deadline) |
 | Workshop Event        | December 9th, 2022 |
