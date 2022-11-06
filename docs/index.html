@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/extras.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 
 </head>
 <body>
@@ -30,20 +30,14 @@
   <ul class="wrapper">
     
       <li class="nav-item">
-        <a href="#cfp" title="CFP" class="nav-link">
-          CFP
-        </a>
-      </li>
-    
-      <li class="nav-item">
-        <a href="#submission" title="Submission" class="nav-link">
-          Submission
-        </a>
-      </li>
-    
-      <li class="nav-item">
         <a href="#program" title="Program" class="nav-link">
           Program
+        </a>
+      </li>
+    
+      <li class="nav-item">
+        <a href="#cfp" title="CFP" class="nav-link">
+          CFP
         </a>
       </li>
     
@@ -77,12 +71,15 @@
     </h1>
     <h2 class="header-subtitle">The 1st International Workshop on Native Network Intelligence <br> Co-located with ACM CoNEXT </h2>
     <h2 class="tagline">December 9th, Rome, Italy</h2>
+    <br>
+    <br>
 
     <div class="call-action-area">
       
 
       
     </div>
+    <div id="logo"><img src="img/nativeni_logo.png"/></div>
   </div>
   </div>
   <span>
@@ -108,7 +105,176 @@
     })
     </script>
 
+
     <div class="content">
+        <div class="wrapper">
+        <section id="program">
+        <h1>Program</h1>
+        <h3>Keynote Speakers</h3>
+
+
+
+    <div class="speaker">
+        <img src="img/paul_patras.png"/>
+        <table>
+            <tr><td><span class="speakername">Paul Patras</span></td><tr>
+            <tr><td><span class="jobtitle">Associate Professor / Co-founder and CEO</span></td></tr>
+            <tr><td><span class="affiliation">University of Edimburg / NetAI</span></td></tr>
+        </table>
+    </div>
+
+    <div class="speaker">
+        <img src="img/sujata_banerjee.png"/>
+        <table>
+            <tr><td><span class="speakername">Sujata Banerjee</span></td><tr>
+            <tr><td><span class="jobtitle">Vince president of research</span></td></tr>
+            <tr><td><span class="affiliation">VMWare</span></td></tr>
+        </table>
+    </div>
+
+
+        <br>
+<br>
+<h3>Program schedule</h3>
+
+
+<div class="agenda">
+
+    <p>
+    <span class="duration">13:30 - 14:30</span>
+    
+        
+        <span class="title">Keynote #1 : <span class="speaker-name">Paul Patras</span></span><br>
+        <p class="schedule-info keynote-details">
+        Title:  TBD<br>
+        Abstract: TBD
+        </p>
+        
+    
+    </p>
+
+    
+
+    <p>
+    <span class="duration">14:30 - 15:10</span>
+    
+        <span class="title">Session 1: In-Network ML</span>
+    
+    </p>
+
+    
+        
+            
+            <p class="schedule-info">
+            <span class="paper-title">Henna: Hierarchical Machine Learning Inference in Programmable Switches</span> <br>
+            <span class="paper-authors">Aristide Tanyi-Jong Akem (IMDEA Networks Institute and Universidad Carlos III de Madrid), Beyza Bütün (IMDEA Networks Institute and Universidad Carlos III de Madrid), Michele Gucciardo (IMDEA Networks Institute), Marco Fiore (IMDEA Networks Institute)</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="paper2">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-paper2">The recent proliferation of programmable network equipment has opened up new possibilities for embedding intelligence into the data plane. Deploying models directly in the data plane promises to achieve high throughput and low latency inference capabilities that cannot be attained with traditional closed loops involving control-plane operations. Recent efforts have paved the way for the integration of trained machine learning models in resource-constrained programmable switches, yet current solutions have significant limitations that translate into performance barriers when coping with complex inference tasks. In this paper, we present Henna, a first in-switch implementation of a hierarchical classification system. The concept underpinning our solution is that of splitting a difficult classification task into easier cascaded decisions, which can then be addressed with separated and resource-efficient tree-based classifiers. We propose a design of Henna that aligns with the internal organization of the Protocol Independent Switch Architecture (PISA), and integrates state-of-the-art strategies for mapping decision trees to switch hardware. We then implement Henna into a real testbed with off-the-shelf Intel Tofino programmable switches using the P4 language. Experiments with a complex 21-category classification task based on measurement data demonstrate how Henna improves the F1 score of an advanced single-stage model by 21%, while keeping usage of switch resources at 8% on average.</p>
+            </p>
+            </p>
+        
+            
+            <p class="schedule-info">
+            <span class="paper-title">The Case for Native Multi-Node In-Network Machine Learning</span> <br>
+            <span class="paper-authors">Lorenzo Bracciale (University of Rome Tor Vergata), Tushar Swamy (Stanford University), Muhammad Shahbaz (Purdue University), Pierpaolo Loreti (University of Rome Tor Vergata), Stefano Salsano (University of Rome Tor Vergata), Hesham Elbakoury (Consultant)</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="paper86">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-paper86">It is now possible to run per-packet Machine Learning (ML) inference tasks in the data plane at line-rate with dedicated hardware in programmable network switches. We refer to this approach as per-packet ML. Existing work in this area focuses on a single node setup, where the incoming packets are processed by the switch pipeline to extract features at different levels of granularity: packet-level, flow-level, cross-flow level, while also considering device-level features. The extracted features are then processed by an ML inference fabric inside the same switch.  In this position paper, we propose to extend and enhance this model from a single node to a collection of nodes (including switches and servers). In fact, there are several scenarios where it is impossible for a single node to perform both feature processing (e.g., due to lack of or limited access to data) and the ML inference operations. In a multi-node setup, a node can extract ML features and encode them in packets as metadata, which are then processed by another node (e.g., switch) to execute native inference tasks. We make a case for a standard model of extracting, encoding, and forwarding features between nodes to carryout distributed, native ML inference inside networks; discuss the applicability and versatility of the proposed model; and illustrate the various open research issues and design implications.</p>
+            </p>
+            </p>
+        
+    
+
+    <p>
+    <span class="duration">15:10 - 15:30</span>
+    
+        <span class="title">Coffee break</span>
+    
+    </p>
+
+    
+
+    <p>
+    <span class="duration">15:30 - 16:30</span>
+    
+        <span class="title">Session 2: ML on network data</span>
+    
+    </p>
+
+    
+        
+            
+            <p class="schedule-info">
+            <span class="paper-title">Native Network Intelligence, Fast and Slow</span> <br>
+            <span class="paper-authors">Dario Rossi (Huawei Technologies, co. Ltd), Liang Zhang (Huawei Technologies, co. Ltd)</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="paper4">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-paper4">As networks have historically been built around connectivity, #architectural features concerning quality of service, mobility, security and privacy have been added as afterthoughts -- with consequent well known architectural headaches for their later integration. Despite Artificial Intelligence (AI) is more a means to an end, that an architectural feature itself, this is not completely different from what concerns its integration: in particular, while Cloud and Edge computing paradigms made it possible to use AI techniques to relieve part of network operation, however AI is currently little more than an additional tool. This paper describes a vision of future networks, where AI becomes a first class commodity: its founding principle lays around the concept of ``fast and slow&#39;&#39; type of AI reasoning, each of which offers different types of AI capabilities to process network data. We next outline how these building blocks naturally maps to different network segments, and discuss emerging AI-to-AI communication patterns as we move to more intelligent networks.</p>
+            </p>
+            </p>
+        
+            
+            <p class="schedule-info">
+            <span class="paper-title">On Using Pretext Tasks to Learn Representations from Network Logs</span> <br>
+            <span class="paper-authors">Matteo Boffa (Politecnico di Torino), Giulia Milan (Huawei Technologies Co. Ltd), Luca Vassio, Idilio Drago (University of Turin), Marco Mellia, Zied Ben Houidi (Huawei Technologies Co. Ltd), Dario Rossi (Huawei Technologies Co. Ltd)</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="paper38">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-paper38">Learning meaningful representations from network data is critical to ease the adoption of AI as a cornerstone to process network logs. Since a large portion of such data is textual, Natural Language Processing (NLP) appears as an obvious candidate to learn their representations. Indeed, the literature proposes impressive applications of NLP applied to textual network data. However, in the absence of labels, objectively evaluating the goodness of the learned representations is still an open problem. We call for a systematic adoption of domain-specific pretext tasks to select the best representation from network data. Relying on such tasks enables us to evaluate different representations on side machine learning problems and, ultimately, unveiling the best candidate representations for the more interesting downstream tasks for which labels are scarce or unavailable. We apply pretext tasks in the analysis of logs collected from SSH honeypots. Here, a cumbersome downstream task is to cluster events that exhibit a similar attack pattern. We propose the following pipeline: first, we represent the input data using a classic NLP-based approach. Then, we design pretext tasks to objectively evaluate the representation goodness and to select the best one. Finally, we use the best representation to solve the unsupervised task, which uncovers interesting behaviours and attack patterns. All in all, our proposal can be generalized to other text-based network logs beyond honeypots.</p>
+            </p>
+            </p>
+        
+            
+            <p class="schedule-info">
+            <span class="paper-title">AI-based Detection of DNS Misuse for Network Security</span> <br>
+            <span class="paper-authors">Irina Chiscop (TNO Netherlands Organisation for Applied Scientific Research), Francesca Soro (AIT Austrian Institute of Technology), Paul Smith (AIT Austrian Institute of Technology)</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="paper66">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-paper66">Threat hunting and malware prediction are critical activities to ensure network and system security. These tasks are difficult due to increasing numbers of sophisticated malware families. Automatically detecting anomalous Domain Name System (DNS) queries in operational traffic facilitates the detection of new malware infections, significantly contributing to the work of security practitioners. In this paper, we present two AI-based Domain Generation Algorithm (DGA) detection and classification techniques - a feature-based one, leveraging classic Machine Learning algorithms and a featureless one, based on Deep Learning - specifically intended to aid in this task. Both techniques are designed to be integrated in operational environments, dealing with hundreds of thousands to millions of new malware samples per day. We report the implementation details, the classification performance, the advantages and shortcomings for both techniques, as well as experiences from the deployment of this system in an industrial environment. We show that both techniques reach more than the 90% accuracy in the case of binary DGA detection, with a slight degradation in performance in the multi-class classification case, in which the results strongly depend on the malware type.</p>
+            </p>
+            </p>
+        
+    
+
+    <p>
+    <span class="duration">16:30 - 17:30</span>
+    
+        
+        <span class="title">Keynote #2 : <span class="speaker-name">Sujata Banerjee</span></span><br>
+        <p class="schedule-info keynote-details">
+        Title:  TBD<br>
+        Abstract: TBD
+        </p>
+        
+    
+    </p>
+
+    
+
+</div>
+
+        </section>
+        <hr class="separator">
+        </div>
+
+        <div class="wrapper">
+        <section id="sponsors">
+        <h1>Sponsors</h1>
+        
+<p class="sponsors">
+<a href="https://huawei.com"><img src="img/huawei_logo.png" class="sponsor"></a>
+<a href="https://h2020daemon.eu/"><img src="img/daemon_project.png" class="sponsor" style="height:80px"></a>
+</p>
+
+        </section>
+        <hr class="separator">
+        </div>
+
         <div class="wrapper">
         <section id="cfp">
         
@@ -201,8 +367,8 @@ such integration: on the one hand, network architectures must be updated to acco
 <td style="text-align:left"><del>October 21st, 2022</del></td>
 </tr>
 <tr>
-<td style="text-align:left">Camera ready</td>
-<td style="text-align:left">November 1st, 2022 (hard deadline)</td>
+<td style="text-align:left"><del>Camera ready</del></td>
+<td style="text-align:left"><del>November 1st, 2022 (hard deadline)</del></td>
 </tr>
 <tr>
 <td style="text-align:left">Workshop Event</td>
@@ -215,36 +381,6 @@ such integration: on the one hand, network architectures must be updated to acco
         </section>
         <hr class="separator">
         </div> 
-
-        <div class="wrapper">
-        <section id="program">
-        <h1>Program</h1>
-        <h3>Keynote Speakers</h3>
-
-
-
-    <div class="speaker">
-        <img src="img/paul_patras.png"/>
-        <table>
-            <tr><td><span class="speakername">Paul Patras</span></td><tr>
-            <tr><td><span class="jobtitle">Associate Professor / Co-founder and CEO</span></td></tr>
-            <tr><td><span class="affiliation">University of Edimburg / NetAI</span></td></tr>
-        </table>
-    </div>
-
-    <div class="speaker">
-        <img src="img/sujata_banerjee.png"/>
-        <table>
-            <tr><td><span class="speakername">Sujata Banerjee</span></td><tr>
-            <tr><td><span class="jobtitle">Vince president of research</span></td></tr>
-            <tr><td><span class="affiliation">VMWare</span></td></tr>
-        </table>
-    </div>
-
-
-        </section>
-        <hr class="separator">
-        </div>
 
         <div class="wrapper">
         <section id="committee">
@@ -395,5 +531,6 @@ such integration: on the one hand, network architectures must be updated to acco
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="https://example.org/js/jquery.js"><\/script>')</script>
+  <script src="js/toggle-visibility.js"></script>
 </body>
 </html>
