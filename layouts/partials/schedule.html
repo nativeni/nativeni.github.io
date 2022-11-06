@@ -1,0 +1,38 @@
+<br>
+<br>
+<h3>Program schedule</h3>
+
+
+<div class="agenda">
+{{ range $item := $.Site.Data.program.schedule }}
+    <p>
+    <span class="duration">{{ $item.block.duration }}</span>
+    {{ if eq $item.block.type "keynote" }}
+        {{ range $speaker := first 1 (where $.Site.Data.program.keynotes "speaker.id" $item.block.speaker) }}
+        <span class="title">{{ $item.block.title }} : <span class="speaker-name">{{ $speaker.speaker.name }}</span></span><br>
+        <p class="schedule-info keynote-details">
+        Title:  {{$speaker.speaker.title}}<br>
+        Abstract: {{$speaker.speaker.abstract}}
+        </p>
+        {{ end }}
+    {{ else }}
+        <span class="title">{{ $item.block.title }}</span>
+    {{ end }}
+    </p>
+
+    {{ if eq $item.block.type "session" }}
+        {{ range $paperid := $item.block.papers }}
+            {{ $paper := index $.Site.Data.program.papers $paperid }}
+            <p class="schedule-info">
+            <span class="paper-title">{{ $paper.title }}</span> <br>
+            <span class="paper-authors">{{ $paper.authors }}</span>
+            <p class="paper-details">
+                <span class="paper-button paper-abstract-button" id="{{ $paperid }}">ABSTRACT +</span>
+                <span class="paper-button">PDF</span>
+                <p class="paper-abstract-description" id="paper-abstract-{{ $paperid }}">{{ $paper.abstract }}</p>
+            </p>
+            </p>
+        {{ end }}
+    {{ end }}
+{{ end }}
+</div>

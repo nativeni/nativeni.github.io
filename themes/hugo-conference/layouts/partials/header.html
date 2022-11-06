@@ -14,6 +14,8 @@
     </h1>
     <h2 class="header-subtitle">{{ .description | safeHTML }} </h2>
     <h2 class="tagline">{{ .date }}, {{ .city }}, {{ .country }}</h2>
+    <br>
+    <br>
 
     <div class="call-action-area">
       {{ with .price }}
@@ -24,6 +26,7 @@
         <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
       {{ end }}
     </div>
+    <div id="logo"><img src="img/nativeni_logo.png"/></div>
   </div>
   </div>
   <span>
