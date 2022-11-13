@@ -166,14 +166,14 @@ div.speaker table td {
     line-height: 1em;
 }
 
-div.speaker span.speakername {
+div.speaker span.speaker-name {
     font-family: "Bebas Neue", sans-serif;
     font-size: 18pt;
     padding: 0px 0px 15px 0px;
     color: #5402a7;
 }
 
-div.speaker span.jobtitle, span.affiliation {
+div.speaker-name, span.speaker-jobtitle, span.speaker-affiliation, a.speaker-homepage{
     font-size: 0.8em;
     line-height: 1em;
 }
@@ -221,6 +221,11 @@ p.keynote-details {
     font-weight: bold;
 }
 
+.keynote-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .paper-authors {
     font-size: 0.7em;
     line-height: 0.7em;
@@ -257,6 +262,29 @@ p.keynote-details {
     font-style: italic;
     text-align: left;
     display: none;
+}
+
+.keynote-abstract {
+    font-size: 0.9em;
+    text-align: left;
+    display: block;
+    padding-left: 8px;
+    font-style: italic;
+}
+
+.keynote-bio {
+    font-size: 0.9em;
+    text-align: left;
+    display: block;
+    padding-left: 8px;
+    //font-style: italic;
+}
+
+.keynote-label{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: none;
+    display: block;
+    padding-top: 8px;
 }
 
 #logo {

@@ -2,12 +2,13 @@ keynotes:
     - speaker:
         id: speaker1
         name: Paul Patras
-        affiliation: University of Edimburg / NetAI
+        affiliation: University of Edinburgh / Net AI
         jobtitle: Associate Professor / Co-founder and CEO
         homepage: https://homepages.inf.ed.ac.uk/ppatras/
         picture: paul_patras.png
-        title: TBD
-        abstract: TBD
+        title: The AI Imperative in Mobile Networking and How to Use It in a Principled Way
+        abstract: The network traffic landscape is becoming increasingly complex and the infrastructure that needs to support the applications that continue to emerge is increasingly virtualized. At this point, the adoption of artificial intelligence to effectively manage and monetize (mobile) networks is therefore not only inevitable, but essential. However, employing off-the-shelf neural models, which were originally designed for areas such as image recognition and natural language processing, in order to tackle problems in the network domain is questionable, given the unique characteristics of network architectures, protocols, and traffic. In this talk, I will discuss how to harness the power of AI in an principled way, to devise practical solutions for a range of non-trivial network analytics, security and control tasks. I will also talk about data processing requirements and training considerations, explain how network intelligence can be deployed in current and future networks, and how ongoing standardization efforts may facilitate this. Finally, I will highlight a number of challenges that lie on the path to successful native NI.
+        bio: Paul Patras is a co-founder and the CEO of Net AI, a pioneering network intelligence company based in Scotland, whose mission is to create a market leading platform for deep traffic analysis across 5G and beyond 5G mobile networks. He is also an Associate Professor in the School of Informatics at the University of Edinburgh, where he leads the Mobile Intelligence Lab. Dr Patras has spearheaded the use of deep learning to solve several problems in the mobile networking domain, which were previously considered intractable. He held visiting research positions at the University of Brescia, Northeastern University, Technical University of Darmstadt, and Rice University. He serves as an associate editor of Computer Communications, co-chaired the first Workshop on Machine Learning and Systems (EuroMLSys), and advised the ITU-T Focus Group on Machine Learning for Future Networks including 5G.
     - speaker:
         id: speaker2
         name: Sujata Banerjee
@@ -17,6 +18,7 @@ keynotes:
         picture: sujata_banerjee.png
         title: TBD
         abstract: TBD
+        bio: TBD
 
 schedule:
     - block:
