@@ -36,7 +36,7 @@
             <span class="paper-authors">{{ $paper.authors }}</span>
             <p class="paper-details">
                 <span class="paper-button paper-abstract-button" id="{{ $paperid }}">ABSTRACT +</span>
-                <span class="paper-button">PDF</span>
+                <a class="paper-button" href="{{ $paper.pdf }}">PDF</a>
                 <p class="paper-abstract-description" id="paper-abstract-{{ $paperid }}">{{ $paper.abstract }}</p>
             </p>
             </p>
