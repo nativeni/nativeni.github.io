@@ -248,6 +248,31 @@ p.keynote-details {
     border: solid 2px white;
 }
 
+a.paper-button, a.paper-button:visited {
+    font-size: 0.6em;
+    border-radius:6px;
+    border: solid 2px #5402a7;
+    padding: 3px;
+    margin-top: 5px;
+    color: #5402a7;
+    text-decoration: none;
+}
+
+a.paper-button:hover {
+    background-color: #5402a7;
+    color: white;
+    cursor: pointer;
+    border: solid 2px white;
+}
+
+/*
+.paper-button a, a:visited, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+*/
+
+
 // dummy
 .paper-abstract-button {
 }
